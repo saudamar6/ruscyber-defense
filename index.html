@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RUSCYBER — Defense Center</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">R</div>
+    <div>
+      <h1>RUSCYBER</h1>
+      <span>DEFENSE CENTER</span>
+    </div>
+  </div>
+
+  <div class="status">
+    <i></i> SYSTEM PROTECTED
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div>
+    <p class="label">SECURITY OPERATIONS CENTER</p>
+
+    <h2>
+      Центр киберзащиты
+      <br>
+      и мониторинга
+    </h2>
+
+    <p class="description">
+      Система мониторинга безопасности и обнаружения подозрительной
+      активности в авторизованной инфраструктуре.
+    </p>
+  </div>
+
+  <div class="shield">
+    <div>✓</div>
+    <span>SECURE</span>
+  </div>
+</section>
+
+<section class="stats">
+
+  <div class="card">
+    <span>УРОВЕНЬ УГРОЗЫ</span>
+    <strong id="threat">LOW</strong>
+    <div class="bar">
+      <div id="threatBar"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <span>ЗАБЛОКИРОВАНО</span>
+    <strong id="blocked">1284</strong>
+    <small>событий</small>
+  </div>
+
+  <div class="card">
+    <span>ЗАПРОСОВ</span>
+    <strong id="requests">84921</strong>
+    <small>за текущую сессию</small>
+  </div>
+
+  <div class="card">
+    <span>ЗАЩИТА</span>
+    <strong class="green">ACTIVE</strong>
+    <small>все модули работают</small>
+  </div>
+
+</section>
+
+<section class="layout">
+
+<div class="panel">
+
+  <div class="panel-title">
+    <div>
+      <p class="label">LIVE MONITOR</p>
+      <h3>События безопасности</h3>
+    </div>
+
+    <span class="live">● LIVE</span>
+  </div>
+
+  <div id="events"></div>
+
+</div>
+
+<div class="panel">
+
+  <p class="label">DEFENSE MODULES</p>
+  <h3>Модули защиты</h3>
+
+  <div class="module">
+    <div>
+      <b>WEB SHIELD</b>
+      <small>Фильтрация запросов</small>
+    </div>
+    <strong>ACTIVE</strong>
+  </div>
+
+  <div class="module">
+    <div>
+      <b>ANTI-EXTORTION</b>
+      <small>Защита от вымогательства</small>
+    </div>
+    <strong>ACTIVE</strong>
+  </div>
+
+  <div class="module">
+    <div>
+      <b>INTRUSION MONITOR</b>
+      <small>Контроль доступа</small>
+    </div>
+    <strong>ACTIVE</strong>
+  </div>
+
+  <div class="module">
+    <div>
+      <b>INTEGRITY GUARD</b>
+      <small>Контроль целостности</small>
+    </div>
+    <strong>ACTIVE</strong>
+  </div>
+
+</div>
+
+</section>
+
+<section class="terminal">
+
+  <div class="terminal-head">
+    SECURITY TERMINAL
+    <span>● ONLINE</span>
+  </div>
+
+  <div id="terminal"></div>
+
+</section>
+
+</main>
+
+<footer>
+  RUSCYBER SECURITY OPERATIONS CENTER
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
